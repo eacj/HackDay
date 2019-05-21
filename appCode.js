@@ -10,7 +10,6 @@ wss.on('connection', function(ws) {
     http.createServer(function (req, res) {
         req.on('data', function (chunk) {
             onibusSelecionadoAgora = chunk.toString();
-            console.log(onibusSelecionadoAgora);
 
             var net = require('net');
             // Conecta ao servidor Java
@@ -18,22 +17,11 @@ wss.on('connection', function(ws) {
             // Envia para o server java o onibus selecionado, para ativar o Esper
             client.write(onibusSelecionadoAgora + '\n');
             client.on('data', (data) => {
-                // const server_message = JSON.parse(data.toString);
-                // const tipo = server_message.tipo;
-                //
-                // if (tipo = "OnibusEvent") {
-                //     const latitude = server_message.latitude;
-                //     const longitude = server_message.longitude;
-                // }
                 var dados = data.toString();
-                console.log(dados);
                 var latLong = dados.split(" ");
                 var latitude = latLong[0];
                 var longitude = latLong[1];
-                console.log(latitude + "," + longitude);
-                // ws.send(JSON.stringify({ "num": onibusSelecionadoAgora }));
                 ws.send(JSON.stringify({ "latitude": latitude, "longitude": longitude }));
-                // client.end();
             });
         });
     }).listen(6969);
