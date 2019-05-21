@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esper-common-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esper-common-avro-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esper-compiler-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esperio-amqp-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esperio-csv-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esperio-db-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esperio-http-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esperio-kafka-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esperio-socket-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esperio-springjms-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/esper-runtime-8.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/dependencies/compiler/antlr4-runtime-4.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/dependencies/compiler/commons-compiler-3.0.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/dependencies/compiler/janino-3.0.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/dependencies/compiler/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/dependencies/compiler/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gusta/Documents/codigos_kiev/esper-8.1.0/dependencies/compiler/slf4j-log4j12-1.7.25.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
